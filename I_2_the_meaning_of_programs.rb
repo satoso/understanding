@@ -1,3 +1,6 @@
+# run this:
+# pry --require ".\I_2_the_meaning_of_programs.rb"
+
 class Number < Struct.new(:value)
   def to_s
     value.to_s
